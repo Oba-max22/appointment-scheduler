@@ -5,9 +5,6 @@ import { Inject, ScheduleComponent, Day, Week,
         ResourcesDirective, ResourceDirective
         } from "@syncfusion/ej2-react-schedule";
 
-// import { DropDownListComponent } from "@syncfusion/ej2-react-dropdowns";
-// import { DateTimePickerComponent } from "@syncfusion/ej2-react-calendars";
-
 const Calendar = () => {
 
     const localData = {
@@ -21,11 +18,11 @@ const Calendar = () => {
     };
 
     const resourceData = [
-        { DoctorText: 'Marvin T.', Id: 1, Color: '#67760E' },
-        { DoctorText: 'Mayowa A.', Id: 2, Color: '#76400E' },
-        { DoctorText: 'Clement Q.', Id: 3, Color: '#0E6376' },
-        { DoctorText: 'Octa Devor', Id: 4, Color: '#760E0E' },
-        { DoctorText: 'Hellia Satun', Id: 5, Color: '#FFE8D3' }
+        { DoctorText: 'Marvin T.', Id: 1, Color: '#c2292e' },
+        { DoctorText: 'Mayowa A.', Id: 2, Color: '#eb9c0a' },
+        { DoctorText: 'Clement Q.', Id: 3, Color: '#9cb5bf' },
+        { DoctorText: 'Octa Devor', Id: 4, Color: '#38708f' },
+        { DoctorText: 'Hellia Satun', Id: 5, Color: '#00124a' }
     ];
 
     const eventTemplate = (props) => {
@@ -36,7 +33,6 @@ const Calendar = () => {
         <ScheduleComponent currentView="Day" width='100%' height='54rem' 
             eventSettings={{ dataSource: localData.dataSource , template: eventTemplate,
                 fields: {
-                            // subject: { name: 'Type', title: 'Type', default: 'Add Title'},
                             startTime: { name: 'From' },
                             endTime: { name: 'To' }
                         } 
