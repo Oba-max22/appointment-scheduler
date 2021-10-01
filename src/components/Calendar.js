@@ -18,11 +18,11 @@ const Calendar = () => {
     };
 
     const resourceData = [
-        { DoctorText: 'Marvin T.', Id: 1, Color: '#F97B5C' },
-        { DoctorText: 'Mayowa A.', Id: 2, Color: '#F97B5C' },
-        { DoctorText: 'Clement Q.', Id: 3, Color: '#F97B5C' },
-        { DoctorText: 'Octa Devor', Id: 4, Color: '#F97B5C' },
-        { DoctorText: 'Hellia Satun', Id: 5, Color: '#F97B5C' }
+        { DoctorText: 'Marvin T.', Id: 1, Color: '#c2292e' },
+        { DoctorText: 'Mayowa A.', Id: 2, Color: '#eb9c0a' },
+        { DoctorText: 'Clement Q.', Id: 3, Color: '#9cb5bf' },
+        { DoctorText: 'Octa Devor', Id: 4, Color: '#38708f' },
+        { DoctorText: 'Hellia Satun', Id: 5, Color: '#00124a' }
     ];
 
     const eventTemplate = (props) => {
