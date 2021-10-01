@@ -1,0 +1,35 @@
+
+* {
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.boxes-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1%;
+    color: #04014E;
+    font-family: 'Nunito',  Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.box {
+    background: #ffffff;
+    width: 250px;
+    height: 200px;
+    box-shadow: 0px 0px 46px #0000000F;
+    border-radius: 15px;
+    margin: 1%;
+}
+
+.box-section-one {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}

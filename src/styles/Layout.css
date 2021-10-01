@@ -1,0 +1,19 @@
+
+* {
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #FFFDF8;
+}
+
+.main-wrapper {
+    background: #FFF;
+    position: relative;
+    min-height: 100vh;
+    width: calc(100% - 280px);
+    left: 280px;
+    border-radius: 20px 0px 0px 20px;
+    overflow-x: hidden;
+
+}
